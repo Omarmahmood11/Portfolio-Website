@@ -10,3 +10,22 @@ $(document).ready(function() {
         });
     });
 });
+let observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1 // adjust if needed, 0.1 means 10% of the element is visible
+    };
+
+    let popUpObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('pop-up');
+            }
+        });
+    }, observerOptions);
+
+    // Observe each container
+    document.querySelectorAll('.main-container, .card').forEach(container => {
+        popUpObserver.observe(container);
+    });
+});
