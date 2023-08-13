@@ -1,12 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(90deg, #212121, #323232);
-    color: #FFFFFF;
+    background: #f0f0f0;
+    color: #212121;
 }
 
 .navbar {
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(90deg, #212121, #323232);
+    background: #212121;
 }
 
 .main-container {
@@ -14,7 +14,7 @@ body {
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.3);
     transform: translateY(20px);
     transition: transform 0.5s, box-shadow 0.5s;
-    background: #424242;
+    background: #fff;
     border-radius: 15px;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .card {
-    background: #616161;
+    background: #e5e5e5;
     border-radius: 15px;
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
     transition: transform 0.5s, box-shadow 0.5s;
@@ -43,7 +43,7 @@ body {
 
 .social-links a {
     margin: 0 10px;
-    color: #f0f0f0;
+    color: #212121;
 }
 
 .progress-bar {
@@ -63,9 +63,9 @@ body {
 }
 
 .nav-link {
-    color: #f0f0f0;
+    color: #212121;
 }
 
-.nav-link:hover {
+.navbar a.nav-link:hover {
     color: #d6ba32;
 }
