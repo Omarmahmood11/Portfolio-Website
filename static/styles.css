@@ -94,3 +94,7 @@ body {
 .pop-up {
     animation: popUp 0.5s forwards;
 }
+.btn i {
+    margin-right: 10px;
+}
+
