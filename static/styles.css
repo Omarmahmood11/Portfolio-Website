@@ -103,7 +103,6 @@ body {
     border: none;
     transition: background-color 0.3s;
 }
-
 .btn-resume:hover {
     background-color: #08345d; 
     text-decoration: none;
